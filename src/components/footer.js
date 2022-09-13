@@ -8,17 +8,18 @@ import '../css/footer.css';
 function Footer() {
   return (
     <div>
-        <div className='left'>
+     
+     
+
+      <div className='footer'>
+      <div className='left'>
                 <div className='leftTop'style={{backgroundImage:`url(${footerlogo})`}}>
                   
                 </div>
           </div>
 
-      <div className='footer'>
-
-          
-
             <div className='socialmedia'> 
+           
                 <InstagramIcon/>    <TwitterIcon/>  <FacebookIcon/>  <LinkedInIcon/>      
             </div>
             <p> &copy; 2022 oshanipizza.com

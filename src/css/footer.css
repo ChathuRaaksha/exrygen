@@ -3,7 +3,7 @@
     height: 200px;
     background-color: #70026D;
     display: flex;
-    
+    margin-top: 138px;
     flex-direction: column;
     padding-top: 10px;
     color: white;
@@ -16,10 +16,23 @@
     cursor: pointer;
   }
 
-  .footer .left .leftTop {
-    width: 457px;
+  .footer .left  {
+    width: 50%;
+    height: 150px;
+    
+
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+
+  .footer.left .leftTop {
+    width: 150px;
     height: 100px;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -33,7 +46,7 @@
 
   .bottomfooter {
     width: 100%;
-    height: 81px;
+    height: 51px;
     background-color: #8C298A;
     display: flex;
     background: #8C298A 0% 0% no-repeat padding-box;
